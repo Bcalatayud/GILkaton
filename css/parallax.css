@@ -7,7 +7,7 @@ body, html {
     margin-right: 0px;
     padding-left: 0;
     font-size: 25px;
-	
+	background-color: #c7d1d6;
 }
 
 a:hover{
@@ -51,24 +51,35 @@ a:hover{
 	padding-left: 25%
 
 }
+.text h1{
+	color: #b1955b;
+}
+
+h2{
+	color: #174884;
+}
+
 .text h3{
 	text-align:center;
-	padding-left: 25%
-	margin-top: -40px;
-	margin-bottom: -400px;
+	color: #b1955b;
+	margin-bottom: 0px;
+}
 
+#hr{
+	width: 20%;
+	height: 15px;
+	background-color: #174884;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
-.text h6{
-	text-align: center;
-	font-weight: 900;
-	color: #64dd17;
-	font-size: 120px;
-	margin-bottom: -10px;
-}
+
 .text1{
 	text-align: center;
 	padding-top: 0px;
 	padding-bottom: 5px;
+	background-color: #174884;
+
 }
 .text1 img{
 	height: 200px;
@@ -129,10 +140,14 @@ a:hover{
 }
 .menu{
 	margin: 0;
-	background-color: #64dd17;
+	background-color: #174884;
 	text-align: center;
 	position: fixed;
 	width: 100%;
+	
+}
+.menu a{
+	color: #b1945b;
 }
 .tabla{
 	width:100%;
@@ -209,5 +224,7 @@ a:hover{
 		margin-right: px;
 	}
 
-	
+	#hr{
+	height: 5px;
+	}
 }
