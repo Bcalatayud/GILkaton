@@ -43,11 +43,8 @@ a:hover{
 	align-content: center;
 }
 .text img{
-	height: 200px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 5%;
+	height: 100px;
+	margin-top: 20px;
 }
 .text h4{
 	text-align:left;
@@ -145,20 +142,22 @@ a:hover{
 	.logos img, .logos2 img, .logos3 img{
 		height: 60px;
 	}
+	.text img{
+		height: 60px;
+	}
 }
 @media screen and (max-width: 720px) {
 	.logos img, .logos2 img, .logos3 img{
+		padding-top: 30px;
 		height: 40px;
 	}
-			.logos4 img, .logos5 img{
+	.logos4 img, .logos5 img{
 			height: 60px;
 	}
-	
 	.logos6 img{
 		height: 50px;
 		margin-right: px;
 	}
-	
 	.logotipo{
 	position: fixed;
 	align-content: left;
@@ -166,7 +165,9 @@ a:hover{
 	right: 0px;
 	z-index: 90;
 }
-
+	.text img{
+		height: 60px;
+	}
 }
 @media screen and (max-width: 560px) {
 	body, html {
@@ -179,7 +180,7 @@ a:hover{
     font-size: 10px;
 	}
 	.text img{
-		height: 100px;
+		height: 50px;
 		
 	}
 		.text z{
@@ -195,6 +196,7 @@ a:hover{
 			height: 100px;
 		}
 	.logos img, .logos2 img, .logos3 img{
+		margin-top: -50px;
 		height: 30px;
 	}
 	
@@ -206,5 +208,6 @@ a:hover{
 		height: 50px;
 		margin-right: px;
 	}
+
 	
 }
